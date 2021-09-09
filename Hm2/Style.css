@@ -37,13 +37,16 @@ footer .top{
     align-items: center;
 } 
 footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
     background-color: rgb(40, 67, 90);
     color: rgb(231, 237, 241);
     padding: 15px;
 }
 footer a {
-    color: rgb(231, 237, 241);
+    color: rgb(228, 235, 240);
 }
 .info2{
     display: flex;
