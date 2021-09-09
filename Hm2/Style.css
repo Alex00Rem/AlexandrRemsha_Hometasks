@@ -3,20 +3,34 @@ body{
 font-size: 16px;
 font-family: 'Roboto', sans-serif;
 }
+.wrapper {
+    max-widht: 1200px;
+    margin: 0 auto;
+}
 
 header{
     width: 100%;
-    background-color: rgb(40, 67, 90);
+    
     color: rgb(231, 237, 241);
-    padding: 15px;
 }
 header a {
-    color: rgb(231, 237, 241);
+    color: rgb(48, 33, 32);
+}
+
+header a:hover {
+    color: rgb(180, 48, 34);
 }
 header .top{
+    background-color: rgb(40, 67, 90);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px;
+}
+.top2{
+    background-color: rgb(98, 105, 110);
+    width: 150%;
+    color: rgb(208, 217, 221)
 }
 
 .menu ul{
@@ -28,9 +42,13 @@ header .top{
     .menu ul li{
         margin-left: 15px;
         }
+        .menu ul li:first-child{
+            margin-left: 0;
+            }
     .menu ul li a {
         text-decoration: none;
     }
+    
 footer .top{
     display: flex;
     justify-content: center;
