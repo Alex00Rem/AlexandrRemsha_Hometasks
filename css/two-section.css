@@ -1,0 +1,28 @@
+
+.Shoppastry__heading {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.Shoppastrykits__cart {
+    padding: 25px;
+    font-size: 20px;
+    
+}
+.Shoppastrykits__row {
+display: flex;
+}
+.Shoppastrykits__row-two {
+    display: flex;
+ }
+.Shoppastrykits__two {
+display: flex;
+}
+.thebeter {
+    font-size: 25px;
+    text-align: center;
+}
+.thebeter__two {
+    font-size: 10px;
+}
